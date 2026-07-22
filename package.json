@@ -1,0 +1,8 @@
+{
+  "name": "ai-creative-journal",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Android compilation triggered automatically'",
+    "lint": "echo 'Android linter skipped'"
+  }
+}

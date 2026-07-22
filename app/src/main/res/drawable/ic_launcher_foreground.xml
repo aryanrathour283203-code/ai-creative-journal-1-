@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer glowing neon ring -->
+    <group>
+        <path
+            android:pathData="M54,54 m-36,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0"
+            android:strokeColor="#14B8A6"
+            android:strokeWidth="3"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M54,54 m-28,0 a28,28 0 1,1 56,0 a28,28 0 1,1 -56,0"
+            android:strokeColor="#6366F1"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round" />
+    </group>
+
+    <!-- Center phone alarm bell silhouette -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M54,34 C46.27,34 40,40.27 40,48 L40,58 L36,62 L36,64 L72,64 L72,62 L68,58 L68,48 C68,40.27 61.73,34 54,34 Z" />
+        
+    <!-- Bell hammer/clapper -->
+    <path
+        android:fillColor="#14B8A6"
+        android:pathData="M54,68 C51.79,68 50,66.21 50,64 L58,64 C58,66.21 56.21,68 54,68 Z" />
+
+    <!-- Phone receiver arc overlay inside bell -->
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M48,46 C48,45.5 50.5,43 54,43 C57.5,43 60,45.5 60,46 C60,46.5 58.5,47.5 58,47 C57,46 55.5,45.5 54,45.5 C52.5,45.5 51,46 50,47 C49.5,47.5 48,46.5 48,46 Z" />
+</vector>

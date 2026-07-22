@@ -1,0 +1,6 @@
+{
+  "name": "WakeCall AI",
+  "description": "A premium AI-styled personal wake-up assistant featuring real-time speech transcribing, customizable voice personalities, and detailed history tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
